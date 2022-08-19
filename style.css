@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+body {
+	
+	display: grid;
+	grid-template-columns: 21% 79%;
+	grid-template-rows: 70px 450px 550px px 35px;
+	grid-template-areas: "t t"
+						           "h h"
+						           "s s"
+						           "a m"
+						           "f f";
+}
+
+#menu_topo{
+	grid-area: t;
+	display: flex;
+	justify-content: space-between;
+  position: sticky;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 1px 1px 0px rgb(207, 207, 207);
+  top: 0px;
+  z-index: 1;
+	
+}
+#links {
+	display: flex;
+	align-items: center;
+	
+}
+
+#menu_topo img{
+	height: 42px;
+	padding: 16px;
+	
+	
+}
+.item {
+	padding-right: 17px;
+  padding: 8px 20px;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+.item:hover {
+	background: black;
+  color: aliceblue;
+  border-radius: 20px;
+  
+}
+
+
+header {
+	grid-area: h;
+}
+#banner{
+  width: 100%;
+  height: 450px;
+}
+
+#sobre{
+	color: black;
+	grid-area: s;
+	text-align: center;
+	padding: 50px;
+}
+
+#sobre img{
+	height: 72px;
+	padding: 48px 0px;
+}
+
+#sobre p{
+	padding: 10px 64px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+
+}
+
+#categoria{
+  grid-area: a;
+	border-radius: 0px 20px 0px 0px;
+  background-color: #0b0b0b;
+ 
+}
+
+
+
+#categoria-produtos{
+	width: 100%;
+	padding-left: 60px;
+	display: flex;
+	flex-direction: column;
+}
+#produtos{
+	padding-top: 100px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: white;
+
+}
+.tipos{
+	text-align: left;
+	line-height: 56px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+  	list-style-type: none;
+	cursor: pointer;
+}
+
+
+
+main{
+	grid-area: m;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 20px;
+	padding-top: 60px;
+}
+
+.conjunto {
+	width: 33%;
+	text-align: center;
+  	padding-bottom: 50px;
+  	padding-top: 20px;
+	
+}
+
+.conjunto img{
+  height: 175px;
+  width: 175px;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+
+.conjunto img:hover{
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+}
+
+
+.texto {
+	margin-top: 15px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.preco-riscado{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.preco{
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+
+footer {
+	background-color: #0b0b0b;
+	grid-area: f;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	color: #fff;
+	padding: 10px;
+
+}
+
+#rodape {
+  font-weight: bold;
+	color: white;
+}
+.link_rodape {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.link_rodape:hover{
+  color: #7552c7;
+}
+
+

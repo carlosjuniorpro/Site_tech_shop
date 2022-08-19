@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fale conosco</title>
+  <link rel="stylesheet" type="text/css" href="style_faleconosco.css">
+</head>
+
+<body>
+  <nav id="menu_topo">
+    <img src="img/logo.png" alt="" />
+    <div id="links">
+      <a href="index.html#banner" class="item">Home</a>
+      <a href="index.html#sobre" class="item">Quem somos</a>
+      <a href="index.html#categoria" class="item">Produtos</a>
+      <a href="login.html" class="item">Login</a>
+      <a href="#" class="item">Fale conosco</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="imagem-logo">
+      <img src="img/logo.png" alt="" />
+      <p class="p-formatado">Sua melhor loja de produtos de informatica.</p>
+    </div>
+    
+    
+    <form>
+      <h2>Fale conosco</h2>
+      <p class="p-formatado">
+        Precisa falar com a Tech Shop? Nos envie uma mensagem! O prazo de resposta é de até 48 horas.
+      </p>
+      <label for="nome">Nome</label><br />
+      <input id="nome" type="text" name="nome" placeholder="Digite seu nome completo" />
+
+      <label for="email">E-mail</label><br />
+      <input id="email" type="email" name="email" placeholder="seuemail@email.com" />
+
+      <label for="celular">Celular</label><br />
+      <input id="celular" type="tel" name="celular" placeholder="(XX) XXXXX-XXXX" /
+        pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+      <label for="categoria_ajuda">Como podemos te ajudar?</label>
+      <select id="categoria" name="categoria">
+        <option value="">Selecione</option>
+        <option value="envio">Não recebi meu(s) pedido(s)</option>
+        <option value="devolucao">Tenho dificuldade na devolução do produto.</option>
+        <option value="acesso">Não consigo acessar minha conta Tech Shop.</option>
+        <option value="outro">Outro tipo de problema.</option>
+      </select>
+
+      <label for="msg">Observação</label><br />
+      <textarea id="msg" cols="100" rows="5" placeholder="Informe detalhes sobre sua situação."></textarea>
+
+      <div id="botoes-form">
+        <button id="enviar" type="submit">Enviar</button>
+        <button id="cancelar" type="reset">Cancelar</button>
+      </div>
+    </form>
+  </div>
+
+
+  <footer>
+    <p id="rodape">
+      © Desenvolvido por
+      <a class="link_rodape" href="https://www.linkedin.com/in/carlos-junior-8892831b9/">
+        Carlos Rodrigues
+      </a>,
+      <a class="link_rodape" href="https://www.linkedin.com/in/diego-leonardo-17973723b/">Diego </a> e
+      <a class="link_rodape" href="https://www.linkedin.com/in/luisagoncalvess/">Luísa</a> - 2022
+    </p>
+  </footer>
+
+</body>
+
+</html>

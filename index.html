@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tech Shop</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav id="menu_topo">
+    <img src="img/logo.png" alt="" />
+    <div id="links">
+      <a href="#banner" class="item">Home</a>
+      <a href="#sobre" class="item">Quem somos</a>
+      <a href="#categoria" class="item">Produtos</a>
+      <a href="login.html" class="item">Login</a>
+      <a href="faleconosco.html" class="item">Fale conosco</a>
+    </div>
+  </nav>
+
+  <header>
+    <img id="banner" src="img/banner.png" alt="" />
+  </header>
+
+  <section id="sobre">
+    <img src="img/logo.png" alt="" />
+    <p>
+      Seja bem-vindo(a) Tech Shop! Somos uma empresa que nasceu apaixonada por tecnologia
+      e nosso objetivo é prestar
+      serviços com excelência e qualidade na venda de equipamentos de informática.
+    </p>
+    <p>
+      Prezamos o compromisso com nossos clientes, trabalhando com agilidade, produtos de qualidade e preço justo.
+      Sabemos que o nosso sucesso se deve ao sucesso de nossos clientes, e é por este motivo que nosso foco está em
+      atender bem nosso cliente.
+    </p>
+    <p>
+      Relações de confiança e seriedade são valores praticados em nosso dia a dia, pois a satisfação dos nossos clientes
+      e colaboradores é o que nos faz crescer e manter um lugar de destaque em nosso segmento.
+    </p>
+    <p>
+      Aproveite nossas ofertas!
+    </p>
+  </section>
+
+
+  <aside id="categoria">
+    <h3 id="produtos">Produtos</h3>
+    <ul id="categoria-produtos">
+      <li class="tipos" onclick="todos()">Todos</li>
+      <li class="tipos" onclick="mostrar('notebook')">
+        Notebooks
+      </li>
+      <li class="tipos" onclick="mostrar('monitor')">
+        Monitores
+      </li>
+      <li class="tipos" onclick="mostrar('teclado')">
+        Teclados
+      </li>
+      <li class="tipos" onclick="mostrar('mouse')">
+        Mouses
+      </li>
+      <li class="tipos" onclick="mostrar('memoria')">
+        Memórias
+      </li>
+      <li class="tipos" onclick="mostrar('impressora')">
+        Impressoras
+      </li>
+    </ul>
+  </aside>
+
+  <main>
+    <div class="conjunto"  id="notebook">
+      <!-- A segunda class a gente vai usar com javascript-->
+      <img class="imagem" onmouseover="aumentar()"src="img/note-1.png" />
+      <div class="texto">
+        <h4>Notebook Acer</h4>
+        <p class="preco-riscado">De R$ 3.499,99</p>
+        <p class="preco">Por R$3.199,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="notebook">
+      <img class="imagem" src="img/note-2.png" />
+      <div class="texto">
+        <h4>Notebook Samsung</h4>
+        <p class="preco-riscado">De R$ 3.999,99</p>
+        <p class="preco">Por R$3.599,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="notebook">
+      <img class="imagem" src="img/note-3.png" />
+      <div class="texto">
+        <h4>Notebook Asus</h4>
+        <p class="preco-riscado">De R$ 4.499,99</p>
+        <p class="preco">Por R$3.999,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="monitor">
+      <img class="imagem" src="img/monitor-1.png" />
+      <div class="texto">
+        <h4>Monitor Samsung</h4>
+        <p class="preco-riscado">De R$ 2.399,99</p>
+        <p class="preco">Por 1.999.99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="monitor">
+      <img class="imagem" src="img/monitor-2.png" />
+      <div class="texto">
+        <h4>Monitor AOC</h4>
+        <p class="preco-riscado">De R$ 1.999,99</p>
+        <p class="preco">Por 1.499.99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="monitor">
+      <img class="imagem" src="img/monitor-3.png" />
+      <div class="texto">
+        <h4>Monitor Apple</h4>
+        <p class="preco-riscado">De R$ 2.999,99</p>
+        <p class="preco">Por 2.599.99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="teclado">
+      <img class="imagem" src="img/teclado-1.png" />
+      <div class="texto">
+        <h4>Teclado Apple</h4>
+        <p class="preco-riscado">De R$ 299,99</p>
+        <p class="preco">Por R$ 259,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="teclado">
+      <img class="imagem" src="img/teclado-2.png" />
+      <div class="texto">
+        <h4>Teclado Logitech</h4>
+        <p class="preco-riscado">De R$ 199,99</p>
+        <p class="preco">Por R$ 149,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="teclado">
+      <img class="imagem" src="img/teclado-3.png" />
+      <div class="texto">
+        <h4>Teclado Corsair</h4>
+        <p class="preco-riscado">De R$ 189,99</p>
+        <p class="preco">Por R$ 129,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="memoria">
+      <img class="imagem" src="img/memoria-1.png" />
+      <div class="texto">
+        <h4>Memória Fury</h4>
+        <p class="preco-riscado">De R$ 399,99</p>
+        <p class="preco">Por R$ 359,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="memoria">
+      <img class="imagem" src="img/memoria-2.png" />
+      <div class="texto">
+        <h4>Memória Crucial</h4>
+        <p class="preco-riscado">De R$ 329,99</p>
+        <p class="preco">Por R$ 299,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="memoria">
+      <img class="imagem" src="img/memoria-3.png" />
+      <div class="texto">
+        <h4>Memória Kingston</h4>
+        <p class="preco-riscado">De R$ 299,99</p>
+        <p class="preco">Por R$ 259,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="mouse">
+      <img class="imagem" src="img/mouse-1.png" />
+      <div class="texto">
+        <h4>Mouse Hyper</h4>
+        <p class="preco-riscado"> De R$ 129,99</p>
+        <p class="preco">Por R$ 99,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="mouse">
+      <img class="imagem" src="img/mouse-2.png" />
+      <div class="texto">
+        <h4>Mouse Logitech</h4>
+        <p class="preco-riscado"> De R$ 199,99</p>
+        <p class="preco">Por R$ 159,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="mouse">
+      <img class="imagem" src="img/mouse-3.png" />
+      <div class="texto">
+        <h4>Mouse Corsair</h4>
+        <p class="preco-riscado"> De R$ 99,99</p>
+        <p class="preco">Por R$ 79,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="impressora">
+      <img class="imagem" src="img/impressora-1.png" />
+      <div class="texto">
+        <h4>Impressora HP</h4>
+        <p class="preco-riscado"> De R$ 1.799,99</p>
+        <p class="preco">Por R$ 1.399,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="impressora">
+      <img class="imagem" src="img/impressora-2.png" />
+      <div class="texto">
+        <h4>Impressora Epson</h4>
+        <p class="preco-riscado"> De R$ 1.999,99</p>
+        <p class="preco">Por R$ 1.599,99</p>
+      </div>
+    </div>
+    <div class="conjunto" id="impressora">
+      <img class="imagem" src="img/impressora-3.png" />
+      <div class="texto">
+        <h4>Impressora HP</h4>
+        <p class="preco-riscado"> De R$ 2.999,99</p>
+        <p class="preco">Por R$ 2.599,99</p>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <p id="rodape">
+      © Desenvolvido por
+      <a class="link_rodape" href="https://www.linkedin.com/in/carlos-junior-8892831b9/">
+        Carlos Rodrigues
+      </a>,
+      <a class="link_rodape" href="https://www.linkedin.com/in/diego-leonardo-17973723b/"> Diego </a> e
+      <a class="link_rodape" href="https://www.linkedin.com/in/luisagoncalvess/">Luísa</a> - 2022
+    </p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

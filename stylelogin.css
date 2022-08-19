@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+
+#menu_topo{
+	display: flex;
+	justify-content: space-between;
+  position: sticky;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 1px 1px 0px rgb(207, 207, 207);
+  z-index: 1;
+}
+
+
+#resposta{
+  color: black;
+}
+#links {
+	display: flex;
+	align-items: center;
+	
+}
+
+#menu_topo img{
+	height: 42px;
+	padding: 16px;
+}
+.item {
+	padding-right: 17px;
+  padding: 8px 20px;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	font-family: 'Oswald';
+   
+}
+.item:hover {
+	background: black;
+    color: aliceblue;
+    border-radius: 20px;
+   
+}
+
+
+section{
+    background-color:#7747e6;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+section .container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.container .imagem-logo{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+
+.container .imagem-logo img{
+    width: 400px;
+    height: 100px;
+}
+
+.container .imagem-logo p{
+    font-family: 'Open Sans';
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.container .tela-login{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+
+.container .tela-login h2{
+    color: #3d00bd;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Open Sans';
+}
+
+.container .tela-login .login-entre{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+   
+}
+
+.container .tela-login .login-entre form{
+    width: 100%;
+}
+
+.container .tela-login .login-entre form input{
+    display: block;
+
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 0px 0px 1px 0px black;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    border-radius: 8px;
+}
+
+.container .tela-login .login-entre form input:focus{
+    border: 1px solid #3d00bd;
+}
+
+.container .tela-login .login-entre form button{
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #3d00bd;
+    color: aliceblue;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans';
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+
+.container .tela-login .login-entre form button:hover{
+
+    background-color: #28007e;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 0.8em;
+	color: #fff;
+	padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#rodape {
+  font-weight: 300;
+	color: white;
+  font-size: 1rem;
+}
+.link_rodape {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s ease-in;
+}
+.link_rodape:hover{
+  color: #7552c7;
+  font-weight: bold;
+}
+
