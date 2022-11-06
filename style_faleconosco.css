@@ -67,10 +67,7 @@
   font-weight: bold;
   padding-bottom: 20px;
 }
-form {
-  
-  width: 50%;
-}
+
 
 header {
   grid-area: h;
@@ -97,17 +94,12 @@ h2{
 
 
 form{
-  height: 650px;
-  width: 500px;
+  width: 50%;
   margin: 0 auto;
-
   margin-bottom: 80px;
- 
   padding: 45px;
-  
   border: 1px solid white;
-
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 input, select, textarea{
@@ -117,6 +109,7 @@ input, select, textarea{
 	box-sizing: border-box;
 	border: 1px solid white;
   border-radius: 10px;
+  padding: 8px;
 }
 
 label, input, select, textarea{

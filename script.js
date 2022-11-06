@@ -28,7 +28,7 @@ let senha = () =>{
 let caractere = document.getElementById("caractere").value;
 
   if (caractere.length < 8){
-    document.getElementById("resposta").innerHTML = "Senha inválida, digite pelo menos 4 caracteres";
+    document.getElementById("resposta").innerHTML = "Senha inválida, digite pelo menos 8 caracteres";
     document.getElementById("botao").disabled = true;
     document.button.style.backgroundColor = "red";
   } else{
