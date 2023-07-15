@@ -10,7 +10,6 @@
 }
 
 #menu_topo{
-	grid-area: t;
 	display: flex;
 	justify-content: space-between;
   position: sticky;
@@ -47,7 +46,7 @@
   border-radius: 20px;
   
 }
-.container {
+.containe {
   padding: 40px 0px;
   background-color:#7747e6;
   display: flex;
@@ -55,7 +54,6 @@
   align-items: center;
 }
 .imagem-logo {
-  width: 50%;
   text-align: center;
   
 }
@@ -94,7 +92,6 @@ h2{
 
 
 form{
-  width: 50%;
   margin: 0 auto;
   margin-bottom: 80px;
   padding: 45px;

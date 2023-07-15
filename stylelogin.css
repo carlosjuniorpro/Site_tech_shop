@@ -11,10 +11,17 @@
 #menu_topo{
 	display: flex;
 	justify-content: space-between;
-  position: sticky;
-  background: rgb(255, 255, 255);
-  box-shadow: 0px 1px 1px 0px rgb(207, 207, 207);
-  z-index: 1;
+  	position: sticky;
+  	background: rgb(255, 255, 255);
+	  box-shadow: 0px 1px 1px 0px rgb(207, 207, 207);
+  	top: 0px;
+  	z-index: 1;
+	
+}
+#menu_topo img{
+	height: 42px;
+	padding: 16px;
+		
 }
 
 
@@ -32,8 +39,7 @@
 	padding: 16px;
 }
 .item {
-	padding-right: 17px;
-  padding: 8px 20px;
+  padding: 8px;
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: none;
@@ -50,27 +56,13 @@
 
 section{
     background-color:#7747e6;
-    width: 100%;
-    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 }
 
-section .container{
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    
-}
-
-.container .imagem-logo{
-    width: 600px;
-    height: 300px;
+.imagem-logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,14 +71,10 @@ section .container{
    
 }
 
-.container .imagem-logo img{
-    width: 400px;
-    height: 100px;
-}
 
-.container .imagem-logo p{
+
+ .imagem-logo p{
     font-family: 'Open Sans';
-    font-size: 25px;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -94,9 +82,7 @@ section .container{
 
 }
 
-.container .tela-login{
-    width: 450px;
-    height: 500px;
+ .tela-login{
     background-color: white;
     display: flex;
     border-radius: 10px;
@@ -107,16 +93,13 @@ section .container{
 }
 
 
-.container .tela-login h2{
+ .tela-login h2{
     color: #3d00bd;
-    font-size: 30px;
     font-weight: 500;
     font-family: 'Open Sans';
 }
 
-.container .tela-login .login-entre{
-    width: 80%;
-    height: 50%;
+.containe .tela-login .login-entre{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,13 +109,10 @@ section .container{
    
 }
 
-.container .tela-login .login-entre form{
-    width: 100%;
-}
 
-.container .tela-login .login-entre form input{
+
+.containe .tela-login .login-entre form input{
     display: block;
-    height: 40px;
     width: 100%;
     margin-top: 20px;
     box-sizing: border-box;
@@ -143,12 +123,11 @@ section .container{
     border-radius: 8px;
 }
 
-.container .tela-login .login-entre form input:focus{
+.containe .tela-login .login-entre form input:focus{
     border: 1px solid #3d00bd;
 }
 
-.container .tela-login .login-entre form button{
-    height: 40px;
+.containe .tela-login .login-entre form button{
     width: 100%;
     margin-top: 20px;
     background-color: #3d00bd;
@@ -166,7 +145,7 @@ section .container{
 }
 
 
-.container .tela-login .login-entre form button:hover{
+.containe .tela-login .login-entre form button:hover{
 
     background-color: #28007e;
 }
@@ -181,6 +160,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
 }
 #rodape {

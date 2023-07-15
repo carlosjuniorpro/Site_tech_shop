@@ -4,11 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+
   <title>Tech Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  
 </head>
 
 <body>
+  <div class="container-fluid">
+  <div class="row">  
   <nav id="menu_topo">
     <img src="img/logo.png" alt="" />
     <div id="links">
@@ -20,10 +25,13 @@
     </div>
   </nav>
 
+  <div class="row">
   <header>
     <img id="banner" src="img/banner.png" alt="" />
   </header>
-
+  </div>
+  
+  <div class="row">
   <section id="sobre">
     <img src="img/logo.png" alt="" />
     <p>
@@ -44,8 +52,10 @@
       Aproveite nossas ofertas!
     </p>
   </section>
+  </div>
 
-
+  <div class="row">
+    <div class="col-sm">
   <aside id="categoria">
     <h3 id="produtos">Produtos</h3>
     <ul id="categoria-produtos">
@@ -70,8 +80,11 @@
       </li>
     </ul>
   </aside>
+    </div>
 
+    <div class="col-sm">
   <main>
+  <section class="">
     <div class="conjunto"  id="notebook">
       <!-- A segunda class a gente vai usar com javascript-->
       <img class="imagem" onmouseover="aumentar()"src="img/note-1.png" />
@@ -217,9 +230,12 @@
         <p class="preco">Por R$ 2.599,99</p>
       </div>
     </div>
+  </section>
   </main>
+    </div>
+  </div>
 
-
+  <div class="row">
   <footer>
     <p id="rodape">
       © Desenvolvido por
@@ -231,7 +247,8 @@
     </p>
   </footer>
   <script src="script.js"></script>
-
+  </div>
+  </div>
 </body>
 
 </html>
