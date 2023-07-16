@@ -9,7 +9,6 @@
 
 
 #menu_topo{
-	grid-area: t;
 	display: flex;
 	justify-content: space-between;
   	position: sticky;
@@ -46,9 +45,6 @@
 }
 
 
-header {
-	grid-area: h;
-}
 #banner{
   width: 100%;
   height: 450px;
@@ -109,7 +105,6 @@ header {
 
 
 main{
-	grid-area: m;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
