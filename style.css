@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-* {
-	margin: 0;
-	padding: 0;
-	color: black;
-}
 
+
+	.container-fluid {
+		margin: 0;
+		padding: 0;
+		background-color: white;
+	}
 
 #menu_topo{
 	display: flex;
@@ -26,12 +27,11 @@
 
 #menu_topo img{
 	height: 42px;
-	padding: 16px;
+
 		
 }
 .item {
 	padding-right: 17px;
-  	padding: 8px 20px;
 	font-size: 16px;
 	font-weight: 300;
 	text-decoration: none;
@@ -52,18 +52,12 @@
 
 #sobre{
 	color: black;
-	grid-area: s;
 	text-align: center;
-	padding: 50px;
 }
 
-#sobre img{
-	height: 72px;
-	padding: 48px 0px;
-}
 
 #sobre p{
-	padding: 10px 64px;
+	
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 
@@ -71,7 +65,6 @@
 
 #categoria{
 	height: 100%;
-  	grid-area: a;
  	border-radius: 0px 20px 0px 0px;
   	background-color: #0b0b0b;
  
@@ -80,14 +73,11 @@
 
 
 #categoria-produtos{
-	width: 100%;
-	padding-left: 60px;
 	display: flex;
 	flex-direction: column;
 }
 #produtos{
 	padding-top: 100px;
-	padding-left: 10px;
 	font-weight: bold;
 	font-size: 1.3rem;
 	color: white;
@@ -108,12 +98,10 @@ main{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	padding-left: 20px;
-	padding-top: 60px;
+	
 }
 
 .conjunto {
-	width: 33%;
 	text-align: center;
   	padding-bottom: 50px;
   	padding-top: 20px;
@@ -151,13 +139,13 @@ main{
 
 
 footer {
-	background-color: #0b0b0b;
-	grid-area: f;
+	background-color: #000000;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.8em;
 	color: #fff;
-	padding: 10px;
+	width: 100%;
+	
 
 }
 
