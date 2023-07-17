@@ -3,7 +3,9 @@
 
 
 
-
+.row{
+	width: 100%;
+}
 #menu_topo{
 	display: flex;
 	justify-content: space-between;
@@ -44,12 +46,16 @@
 
 #banner{
   width: 100%;
-  height: 450px;
+  padding-bottom: 100px;
 }
 
+#logo {
+	padding-bottom: 40px;
+}
 #sobre{
 	color: black;
 	text-align: center;
+	padding-bottom: 100px;
 }
 
 
