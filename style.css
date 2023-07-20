@@ -95,15 +95,7 @@
 }
 
 
-
-main{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	
-}
-
-.conjunto {
+.conjunto {	
 	text-align: center;
   	padding-bottom: 50px;
   	padding-top: 20px;
@@ -115,6 +107,7 @@ main{
   width: 175px;
   transition: 0.7s ease;
   cursor: pointer;
+
 }
 
 .conjunto img:hover{

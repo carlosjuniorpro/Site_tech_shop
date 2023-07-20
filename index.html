@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Tech Shop</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -55,7 +55,7 @@
     </div>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 ">
         <aside id="categoria">
           <h3 id="produtos">Produtos</h3>
           <ul id="categoria-produtos">
@@ -82,155 +82,190 @@
         </aside>
       </div>
 
-      <div class="col-6">
+      <div class="col-6 col-sm-8 col-md-9 col-lg-10 col-xl-10">
         <main>
-        <section class="">
-          <div class="conjunto"  id="notebook">
-            <!-- A segunda class a gente vai usar com javascript-->
-            <img class="imagem" onmouseover="aumentar()"src="img/note-1.png" />
-            <div class="texto">
-              <h4>Notebook Acer</h4>
-              <p class="preco-riscado">De R$ 3.499,99</p>
-              <p class="preco">Por R$3.199,99</p>
+          <section class="">
+            <div class="row">
+              
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"  id="notebook">
+                <!-- A segunda class a gente vai usar com javascript-->
+                <img class="imagem" onmouseover="aumentar()"src="img/note-1.png" />
+                <div class="texto">
+                  <h4>Notebook Acer</h4>
+                  <p class="preco-riscado">De R$ 3.499,99</p>
+                  <p class="preco">Por R$3.199,99</p>
+                </div>
+              </div>
+     
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="notebook">
+                <img class="imagem" src="img/note-2.png" />
+                <div class="texto">
+                  <h4>Notebook Samsung</h4>
+                  <p class="preco-riscado">De R$ 3.999,99</p>
+                  <p class="preco">Por R$3.599,99</p>
+                </div>
+              </div>
+              
+              <div class="conjunto col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="notebook">
+                <img class="imagem" src="img/note-3.png" />
+                <div class="texto">
+                  <h4>Notebook Asus</h4>
+                  <p class="preco-riscado">De R$ 4.499,99</p>
+                  <p class="preco">Por R$3.999,99</p>
+                </div>
+              </div>
+            
             </div>
-          </div>
-          <div class="conjunto" id="notebook">
-            <img class="imagem" src="img/note-2.png" />
-            <div class="texto">
-              <h4>Notebook Samsung</h4>
-              <p class="preco-riscado">De R$ 3.999,99</p>
-              <p class="preco">Por R$3.599,99</p>
+            
+            <div class="row">
+
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="monitor">
+                <img class="imagem" src="img/monitor-1.png" />
+                <div class="texto">
+                  <h4>Monitor Samsung</h4>
+                  <p class="preco-riscado">De R$ 2.399,99</p>
+                  <p class="preco">Por 1.999.99</p>
+                </div>
+              </div>
+
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="monitor">
+                <img class="imagem" src="img/monitor-2.png" />
+                <div class="texto">
+                  <h4>Monitor AOC</h4>
+                  <p class="preco-riscado">De R$ 1.999,99</p>
+                  <p class="preco">Por 1.499.99</p>
+                </div>
+              </div>
+
+              <div class="conjunto col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="monitor">
+                <img class="imagem" src="img/monitor-3.png" />
+                <div class="texto">
+                  <h4>Monitor Apple</h4>
+                  <p class="preco-riscado">De R$ 2.999,99</p>
+                  <p class="preco">Por 2.599.99</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="conjunto" id="notebook">
-            <img class="imagem" src="img/note-3.png" />
-            <div class="texto">
-              <h4>Notebook Asus</h4>
-              <p class="preco-riscado">De R$ 4.499,99</p>
-              <p class="preco">Por R$3.999,99</p>
+
+            <div class="row">
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="teclado">
+                <img class="imagem" src="img/teclado-1.png" />
+                <div class="texto">
+                  <h4>Teclado Apple</h4>
+                  <p class="preco-riscado">De R$ 299,99</p>
+                  <p class="preco">Por R$ 259,99</p>
+                </div>
+              </div>
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="teclado">
+                <img class="imagem" src="img/teclado-2.png" />
+                <div class="texto">
+                  <h4>Teclado Logitech</h4>
+                  <p class="preco-riscado">De R$ 199,99</p>
+                  <p class="preco">Por R$ 149,99</p>
+                </div>
+              </div>
+              <div class="conjunto col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="teclado">
+                <img class="imagem" src="img/teclado-3.png" />
+                <div class="texto">
+                  <h4>Teclado Corsair</h4>
+                  <p class="preco-riscado">De R$ 189,99</p>
+                  <p class="preco">Por R$ 129,99</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="conjunto" id="monitor">
-            <img class="imagem" src="img/monitor-1.png" />
-            <div class="texto">
-              <h4>Monitor Samsung</h4>
-              <p class="preco-riscado">De R$ 2.399,99</p>
-              <p class="preco">Por 1.999.99</p>
+
+            <div class="row">
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="memoria">
+                <img class="imagem" src="img/memoria-1.png" />
+                <div class="texto">
+                  <h4>Memória Fury</h4>
+                  <p class="preco-riscado">De R$ 399,99</p>
+                  <p class="preco">Por R$ 359,99</p>
+                </div>
+              </div>
+
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="memoria">
+                <img class="imagem" src="img/memoria-2.png" />
+                <div class="texto">
+                  <h4>Memória Crucial</h4>
+                  <p class="preco-riscado">De R$ 329,99</p>
+                  <p class="preco">Por R$ 299,99</p>
+                </div>
+              </div>
+
+              <div class="conjunto col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="memoria">
+                <img class="imagem" src="img/memoria-3.png" />
+                <div class="texto">
+                  <h4>Memória Kingston</h4>
+                  <p class="preco-riscado">De R$ 299,99</p>
+                  <p class="preco">Por R$ 259,99</p>
+                </div>
+              </div>
+
             </div>
-          </div>
-          <div class="conjunto" id="monitor">
-            <img class="imagem" src="img/monitor-2.png" />
-            <div class="texto">
-              <h4>Monitor AOC</h4>
-              <p class="preco-riscado">De R$ 1.999,99</p>
-              <p class="preco">Por 1.499.99</p>
+
+            <div class="row">
+              
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="mouse">
+                <img class="imagem" src="img/mouse-1.png" />
+                <div class="texto">
+                  <h4>Mouse Hyper</h4>
+                  <p class="preco-riscado"> De R$ 129,99</p>
+                  <p class="preco">Por R$ 99,99</p>
+                </div>
+              </div>
+              
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="mouse">
+                <img class="imagem" src="img/mouse-2.png" />
+                <div class="texto">
+                  <h4>Mouse Logitech</h4>
+                  <p class="preco-riscado"> De R$ 199,99</p>
+                  <p class="preco">Por R$ 159,99</p>
+                </div>
+              </div>
+              
+              <div class="conjunto col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="mouse">
+                <img class="imagem" src="img/mouse-3.png" />
+                <div class="texto">
+                  <h4>Mouse Corsair</h4>
+                  <p class="preco-riscado"> De R$ 99,99</p>
+                  <p class="preco">Por R$ 79,99</p>
+                </div>
+              </div>
+
             </div>
-          </div>
-          <div class="conjunto" id="monitor">
-            <img class="imagem" src="img/monitor-3.png" />
-            <div class="texto">
-              <h4>Monitor Apple</h4>
-              <p class="preco-riscado">De R$ 2.999,99</p>
-              <p class="preco">Por 2.599.99</p>
+
+            <div class="row">
+
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="impressora">
+                <img class="imagem" src="img/impressora-1.png" />
+                <div class="texto">
+                  <h4>Impressora HP</h4>
+                  <p class="preco-riscado"> De R$ 1.799,99</p>
+                  <p class="preco">Por R$ 1.399,99</p>
+                </div>
+              </div>
+              
+              <div class="conjunto col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="impressora">
+                <img class="imagem" src="img/impressora-2.png" />
+                <div class="texto">
+                  <h4>Impressora Epson</h4>
+                  <p class="preco-riscado"> De R$ 1.999,99</p>
+                  <p class="preco">Por R$ 1.599,99</p>
+                </div>
+              </div>
+
+              <div class="conjunto col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="impressora">
+                <img class="imagem" src="img/impressora-3.png" />
+                <div class="texto">
+                  <h4>Impressora HP</h4>
+                  <p class="preco-riscado"> De R$ 2.999,99</p>
+                  <p class="preco">Por R$ 2.599,99</p>
+                </div>
+              </div>
+
             </div>
-          </div>
-          <div class="conjunto" id="teclado">
-            <img class="imagem" src="img/teclado-1.png" />
-            <div class="texto">
-              <h4>Teclado Apple</h4>
-              <p class="preco-riscado">De R$ 299,99</p>
-              <p class="preco">Por R$ 259,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="teclado">
-            <img class="imagem" src="img/teclado-2.png" />
-            <div class="texto">
-              <h4>Teclado Logitech</h4>
-              <p class="preco-riscado">De R$ 199,99</p>
-              <p class="preco">Por R$ 149,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="teclado">
-            <img class="imagem" src="img/teclado-3.png" />
-            <div class="texto">
-              <h4>Teclado Corsair</h4>
-              <p class="preco-riscado">De R$ 189,99</p>
-              <p class="preco">Por R$ 129,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="memoria">
-            <img class="imagem" src="img/memoria-1.png" />
-            <div class="texto">
-              <h4>Memória Fury</h4>
-              <p class="preco-riscado">De R$ 399,99</p>
-              <p class="preco">Por R$ 359,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="memoria">
-            <img class="imagem" src="img/memoria-2.png" />
-            <div class="texto">
-              <h4>Memória Crucial</h4>
-              <p class="preco-riscado">De R$ 329,99</p>
-              <p class="preco">Por R$ 299,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="memoria">
-            <img class="imagem" src="img/memoria-3.png" />
-            <div class="texto">
-              <h4>Memória Kingston</h4>
-              <p class="preco-riscado">De R$ 299,99</p>
-              <p class="preco">Por R$ 259,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="mouse">
-            <img class="imagem" src="img/mouse-1.png" />
-            <div class="texto">
-              <h4>Mouse Hyper</h4>
-              <p class="preco-riscado"> De R$ 129,99</p>
-              <p class="preco">Por R$ 99,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="mouse">
-            <img class="imagem" src="img/mouse-2.png" />
-            <div class="texto">
-              <h4>Mouse Logitech</h4>
-              <p class="preco-riscado"> De R$ 199,99</p>
-              <p class="preco">Por R$ 159,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="mouse">
-            <img class="imagem" src="img/mouse-3.png" />
-            <div class="texto">
-              <h4>Mouse Corsair</h4>
-              <p class="preco-riscado"> De R$ 99,99</p>
-              <p class="preco">Por R$ 79,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="impressora">
-            <img class="imagem" src="img/impressora-1.png" />
-            <div class="texto">
-              <h4>Impressora HP</h4>
-              <p class="preco-riscado"> De R$ 1.799,99</p>
-              <p class="preco">Por R$ 1.399,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="impressora">
-            <img class="imagem" src="img/impressora-2.png" />
-            <div class="texto">
-              <h4>Impressora Epson</h4>
-              <p class="preco-riscado"> De R$ 1.999,99</p>
-              <p class="preco">Por R$ 1.599,99</p>
-            </div>
-          </div>
-          <div class="conjunto" id="impressora">
-            <img class="imagem" src="img/impressora-3.png" />
-            <div class="texto">
-              <h4>Impressora HP</h4>
-              <p class="preco-riscado"> De R$ 2.999,99</p>
-              <p class="preco">Por R$ 2.599,99</p>
-            </div>
-          </div>
-        </section>
+          </section>
         </main>
       </div>
     </div>
